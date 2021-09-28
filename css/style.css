@@ -7,10 +7,7 @@
 *,
 *:before,
 *:after {
-<<<<<<< HEAD
   -webkit-box-sizing: border-box;
-=======
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   box-sizing: border-box;
 }
 
@@ -89,15 +86,12 @@ h6 {
   font-weight: 400;
 }
 
-<<<<<<< HEAD
-=======
 svg path {
   fill: inherit;
   stroke: inherit;
   stroke-width: inherit;
 }
 
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 .underline-title {
   position: relative;
 }
@@ -117,16 +111,13 @@ svg path {
   font-size: 80px;
   line-height: 90px;
   letter-spacing: 5px;
-<<<<<<< HEAD
-  text-transform: uppercase;
-}
-
-=======
   color: #fff;
   text-transform: uppercase;
 }
 
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 28px;
   line-height: 31px;
@@ -144,7 +135,6 @@ svg path {
   background-repeat: no-repeat;
 }
 
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -156,19 +146,15 @@ body {
   color: #000;
 }
 
-<<<<<<< HEAD
-=======
 html, body {
   scroll-behavior: smooth;
 }
 
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 .header {
   background-color: #000;
 }
 
 .header .header-container {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,46 +164,17 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-=======
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   width: 100%;
   font-family: 'Forum', cursive;
   color: #fff;
 }
 
-<<<<<<< HEAD
-.header .header-container .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 28px;
-  line-height: 31px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
-.header .header-container .logo-img {
-  margin: 0 25px 0 0;
-  width: 49px;
-  height: 26px;
-  background-image: url("../assets/svg/logo.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-=======
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 .header .header-container .navigation {
   width: 100%;
   max-width: 775px;
 }
 
 .header .header-container .navigation__list {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,16 +193,6 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-=======
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header .header-container .navigation__list li {
-  display: flex;
-  align-items: center;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   height: 150px;
 }
 
@@ -256,14 +203,12 @@ html, body {
   font-weight: 200;
   letter-spacing: 2px;
   color: #fff;
-<<<<<<< HEAD
-=======
+  -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
 .header .header-container .navigation__item:hover {
   color: #9D8665;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 }
 
 .welcom {
@@ -273,12 +218,9 @@ html, body {
 }
 
 .welcom .welcom-container {
-<<<<<<< HEAD
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-=======
-  position: relative;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   display: flex;
 }
 
@@ -305,34 +247,25 @@ html, body {
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 2px;
-<<<<<<< HEAD
-  background-color: #710707;
-  border-radius: 10px;
-=======
   color: #fff;
   background-color: #710707;
   border-radius: 10px;
+  -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
 .welcom .welcom-container .welcom__section .welcom__button:hover {
   background-color: #9D8665;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 }
 
 .welcom .welcom-container .welcom__frame {
   position: relative;
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
-=======
-  display: flex;
-  justify-content: right;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   width: 100%;
   z-index: 0;
 }
@@ -341,18 +274,13 @@ html, body {
   height: 750px;
   max-width: 1000px;
   width: 100%;
-<<<<<<< HEAD
-  background: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(16.19%, rgba(0, 0, 0, 0.5)), color-stop(30.73%, rgba(0, 0, 0, 0))), url("../assets/img/1.jpg");
-  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url("../assets/img/1.jpg");
-=======
+  background: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(16.19%, rgba(0, 0, 0, 0.5)), color-stop(30.73%, rgba(0, 0, 0, 0))), url("../assets/img/welcom/1.jpg");
   background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url("../assets/img/welcom/1.jpg");
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   background-size: cover;
 }
 
 .welcom .welcom-container .welcom__switcher {
   position: absolute;
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -365,26 +293,14 @@ html, body {
   width: 100%;
   max-width: 600px;
   padding: 40px 75px;
-  top: 840px;
-  left: 1072px;
-=======
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 600px;
-  padding: 40px 75px;
   top: 690px;
   left: 840px;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   background-color: #000;
   line-height: 40px;
 }
 
 .welcom .welcom-container .welcom__switcher .welcom__pages-count span {
-<<<<<<< HEAD
-  width: 6px;
-  padding: 0 10px;
+  padding: 0 6px;
 }
 
 .welcom .welcom-container .welcom__switcher .welcom__dots {
@@ -394,14 +310,6 @@ html, body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-=======
-  padding: 0 6px;
-}
-
-.welcom .welcom-container .welcom__switcher .welcom__dots {
-  display: flex;
-  justify-content: space-between;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   width: 100%;
   max-width: 180px;
 }
@@ -410,13 +318,8 @@ html, body {
   height: 16px;
   width: 16px;
   background-color: #fff;
-<<<<<<< HEAD
-}
-
-.welcom .welcom-container .welcom__switcher .welcom__arrows span {
-  padding: 0 20px 0 0;
-=======
   cursor: pointer;
+  -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
 
@@ -429,6 +332,8 @@ html, body {
 }
 
 .welcom .welcom-container .welcom__switcher .welcom__arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -438,6 +343,7 @@ html, body {
   color: #fff;
   background-color: #000;
   cursor: pointer;
+  -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
 
@@ -447,7 +353,6 @@ html, body {
 
 .welcom .welcom-container .welcom__switcher .welcom__arrows_left:hover, .welcom .welcom-container .welcom__switcher .welcom__arrows_right:hover {
   color: #9D8665;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 }
 
 .virtual-tour {
@@ -460,16 +365,11 @@ html, body {
 }
 
 .virtual-tour .virtual-tour__cards {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-=======
-  display: flex;
-  flex-wrap: wrap;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   gap: 72px 60px;
 }
 
@@ -480,10 +380,7 @@ html, body {
 }
 
 .virtual-tour .virtual-tour__cards .cards__title {
-<<<<<<< HEAD
-=======
   color: #000;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   font-size: 32px;
   line-height: 35px;
 }
@@ -492,10 +389,8 @@ html, body {
   width: 300px;
   height: 2px;
   bottom: -11px;
-<<<<<<< HEAD
-=======
+  -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 }
 
 .virtual-tour .virtual-tour__cards .cards__description {
@@ -509,33 +404,23 @@ html, body {
   line-height: 21px;
 }
 
-<<<<<<< HEAD
-.picture-explore {
-  padding: 75px 0 90px 0;
-=======
 .virtual-tour .cards__item:hover .cards__title::after {
   width: 100%;
 }
 
 .picture-explore {
   padding: 75px 0;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   background-color: #000;
   color: #fff;
 }
 
 .picture-explore .picture-explore-container {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-=======
-  display: flex;
-  justify-content: space-between;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 }
 
 .picture-explore .picture-explore__description {
@@ -561,29 +446,6 @@ html, body {
   margin: 0 0 26px 0;
 }
 
-<<<<<<< HEAD
-.picture-explore .picture-explore__picture {
-  padding: 15px 0 0 0;
-  width: 720px;
-  height: 700px;
-}
-
-.video-journey {
-  padding: 75px 0;
-}
-
-.video-journey .video-journey__caption {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 0 75px 0;
-=======
 .picture-explore .picture-explore__description .picture-explore__text span {
   color: #CAAA7D;
 }
@@ -599,11 +461,16 @@ html, body {
 }
 
 .video-journey .video-journey__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 0 70px 0;
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 }
 
 .video-journey .video-journey__caption .video-journey__title {
@@ -621,32 +488,19 @@ html, body {
 .video-journey .video-journey__video {
   height: 735px;
   width: 1440px;
-<<<<<<< HEAD
-  margin: 0 0 40px 0;
-}
-
-.video-journey .video-journey__video-slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 0 40px 0;
-}
-
-.video-journey .video-journey__video-slider .video-journey__slider-item {
-  height: 254px;
-  width: 452px;
-}
-=======
   margin: 0 0 45px 0;
 }
 
 .video-journey .video-journey__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 25px 30px;
   background-color: #000;
 }
@@ -664,7 +518,9 @@ html, body {
 .video-journey .video-journey__bar .bar__range-button {
   height: 8px;
   width: 929px;
+  background: -webkit-gradient(linear, left top, right top, from(#710707), color-stop(50%, #710707), color-stop(50%, #C4C4C4), to(#C4C4C4));
   background: linear-gradient(to right, #710707 0%, #710707 50%, #C4C4C4 50%, #C4C4C4 100%);
+  -webkit-transition: background 450ms ease-in;
   transition: background 450ms ease-in;
   -webkit-appearance: none;
 }
@@ -695,8 +551,12 @@ html, body {
 }
 
 .video-journey .video-journey__video-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 0 32px 0;
 }
 
@@ -716,14 +576,24 @@ html, body {
 }
 
 .video-journey .video-journey__switcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .video-journey .video-journey__switcher .video-journey__dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   max-width: 200px;
 }
@@ -734,6 +604,7 @@ html, body {
   background-color: #999;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
 
@@ -773,8 +644,10 @@ html, body {
 
 .art-gallery .art-gallery__pictures {
   position: relative;
-  column-count: 3;
-  column-gap: 36px;
+  -webkit-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 36px;
+          column-gap: 36px;
 }
 
 .art-gallery .art-gallery__pictures .art-gallery__picture {
@@ -796,6 +669,7 @@ html, body {
   left: 0;
   right: 0;
   top: 1600px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000000));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
 
@@ -814,6 +688,8 @@ html, body {
 }
 
 .buy-tickets .buy-tickets__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -829,8 +705,13 @@ html, body {
 }
 
 .buy-tickets .buy-tickets__type-selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0 240px 0 0;
 }
 
@@ -844,8 +725,11 @@ html, body {
   display: inline-block;
   width: 17px;
   height: 17px;
-  flex-shrink: 0;
-  flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
   border: 2px solid #000;
   border-radius: 50%;
   margin-right: 23px;
@@ -868,9 +752,16 @@ html, body {
 }
 
 .buy-tickets .buy-tickets__amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 
 .buy-tickets .buy-tickets__amount-caption {
@@ -878,9 +769,15 @@ html, body {
 }
 
 .buy-tickets .buy-tickets__count {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 150px;
   height: 50px;
   padding: 12px 14px;
@@ -919,6 +816,7 @@ html, body {
   background-color: #000;
   border-radius: 2px;
   cursor: pointer;
+  -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
@@ -946,8 +844,12 @@ html, body {
 }
 
 .contacts .contacts__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .contacts .contacts__place {
@@ -958,14 +860,22 @@ html, body {
 }
 
 .contacts .contacts__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-weight: 300;
   line-height: 26px;
 }
 
-.contacts .contacts__address span {
+.contacts .contacts__address a {
+  font-weight: 300;
+  line-height: 26px;
   margin: 0 0 25px 0;
+  color: #000;
 }
 
 .contacts .contacts__map {
@@ -980,6 +890,8 @@ html, body {
 }
 
 .footer .footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -996,7 +908,8 @@ html, body {
 
 .footer .navigation__list {
   height: 128px;
-  column-count: 2;
+  -webkit-column-count: 2;
+          column-count: 2;
 }
 
 .footer .navigation__list li {
@@ -1008,6 +921,7 @@ html, body {
   font-weight: 200;
   letter-spacing: 2px;
   color: #fff;
+  -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
@@ -1016,38 +930,62 @@ html, body {
 }
 
 .footer .footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .footer .footer__social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   width: 340px;
 }
 
 .footer .social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 48px;
   height: 48px;
   border: 1px solid #666;
   border-radius: 50%;
+  -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
 .footer .social__link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 100%;
 }
 
 .footer .social__link a svg {
   fill: #fff;
+  -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
@@ -1066,8 +1004,12 @@ html, body {
 }
 
 .last-string .last-string-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #fff;
   font-weight: 200;
   line-height: 22px;
@@ -1077,7 +1019,9 @@ html, body {
 .booking-tickets-overlay {
   position: fixed;
   display: none;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 100%;
   top: 0;
@@ -1091,9 +1035,15 @@ html, body {
 
 .booking-tickets {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 845px;
   width: 100%;
   max-width: 1440px;
@@ -1101,6 +1051,7 @@ html, body {
   background-color: #fff;
   opacity: 0;
   cursor: default;
+  -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
 
@@ -1193,16 +1144,24 @@ html, body {
 }
 
 .booking-tickets .booking-tickets__date-time-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   height: 45px;
 }
 
 .booking-tickets .booking-tickets__field {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 400px;
   height: 45px;
   padding: 14px 15px;
@@ -1286,17 +1245,27 @@ html, body {
 }
 
 .booking-tickets .entry-ticket__buying {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 0 18px 0;
   font-size: 18px;
   line-height: 21px;
 }
 
 .booking-tickets .entry-ticket__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 105px;
   height: 25px;
   padding: 0 13px;
@@ -1306,9 +1275,15 @@ html, body {
 }
 
 .booking-tickets .entry-ticket__count {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 35px;
   height: 23px;
   color: #030303;
@@ -1327,8 +1302,12 @@ html, body {
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 0 17px 0;
 }
 
@@ -1360,8 +1339,12 @@ html, body {
 
 .booking-tickets .booking-tickets__payment .booking-tickets__header .booking-tickets__place div {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 0 0 30px;
   margin: 0 0 5px 0;
 }
@@ -1396,9 +1379,15 @@ html, body {
 
 .booking-tickets .booking-tickets__payment .booking-tickets__price .booking-tickets__basic,
 .booking-tickets .booking-tickets__payment .booking-tickets__price .booking-tickets__senior {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 0 6px 0;
   font-size: 22px;
   line-height: 26px;
@@ -1406,17 +1395,27 @@ html, body {
 
 .booking-tickets .booking-tickets__payment .booking-tickets__price .booking-tickets__count {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 0 0 40px;
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__price .booking-tickets__count::before {
   content: "2";
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 32px;
   height: 20px;
   left: 0;
@@ -1432,8 +1431,12 @@ html, body {
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__total {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 0 10px 0;
   font-size: 32px;
   line-height: 37px;
@@ -1464,8 +1467,13 @@ html, body {
 
 .booking-tickets .booking-tickets__payment .booking-tickets__bank-card .booking-tickets__front-side-card {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 360px;
   height: 211px;
   padding: 15px 20px;
@@ -1474,8 +1482,13 @@ html, body {
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__bank-card .booking-tickets__front-side-card .card-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__bank-card .booking-tickets__front-side-card .card-number span {
@@ -1488,8 +1501,13 @@ html, body {
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__bank-card .booking-tickets__front-side-card .expiration-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0 0 10px 0;
 }
 
@@ -1505,8 +1523,13 @@ html, body {
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__bank-card .booking-tickets__front-side-card .expiration-date label {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__bank-card .booking-tickets__front-side-card .expiration-date span {
@@ -1525,9 +1548,15 @@ html, body {
 
 .booking-tickets .booking-tickets__payment .booking-tickets__bank-card .booking-tickets__back-side-card {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: right;
-  align-items: flex-end;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   padding: 15px 20px;
   width: 360px;
   height: 211px;
@@ -1536,9 +1565,16 @@ html, body {
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__bank-card .booking-tickets__back-side-card label {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 50px 0 0 0;
   width: 75px;
 }
@@ -1554,8 +1590,12 @@ html, body {
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .booking-tickets .booking-tickets__payment .booking-tickets__button .booking-tickets__button-link {
@@ -1575,5 +1615,4 @@ html, body {
   background-image: url("../assets/svg/close.svg");
   cursor: pointer;
 }
->>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
 /*# sourceMappingURL=style.css.map */
