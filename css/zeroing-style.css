@@ -7,7 +7,10 @@
 *,
 *:before,
 *:after {
+<<<<<<< HEAD
   -webkit-box-sizing: border-box;
+=======
+>>>>>>> 1baa6166ad8782b01be795b297f5b69849102340
   box-sizing: border-box;
 }
 
